@@ -28,3 +28,7 @@ data/validation/liposome/microfluidics_dataset/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Frontend build markers written by scripts/build_frontend.sh
+frontend/.last-build
+frontend/.deps.sha256
