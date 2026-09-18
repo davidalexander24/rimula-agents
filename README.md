@@ -4,7 +4,7 @@
 
 > Don't just find a formula. Find the next experiment.
 
-Built in 24 hours by team **Codingbang** at **UI Hackathon Incubate 2026** (PT Paragon Technology and Innovation challenge: "AI untuk Riset & Prediksi Formulasi"), 17 to 18 September 2026. It ran live on a Lintasarta Deka Notebook (NVIDIA L40S).
+Built in 24 hours by team **Codingbang** at **UI Hackathon Incubate 2026** (PT Paragon Technology and Innovation challenge: "AI untuk Riset & Prediksi Formulasi"), 17 to 18 September 2026. It ran live on a Lintasarta Deka Notebook (NVIDIA L40S). **Selected as one of the top 10 of 30 finalist teams** (78 teams registered).
 
 > **Honesty note.** The challenge partner provided no data, so training and the demo run on a **Virtual Lab**: a simulator the team wrote, with open equations whose directional relationships follow the formulation literature ([model card](docs/virtual-lab-model-card.md)). Its numbers are not real lab results. The method is validated separately on a **real published lab dataset** (liposome microfluidics, Zenodo 17867478). All cost and time savings are simulated.
 
