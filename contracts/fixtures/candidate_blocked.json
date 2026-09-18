@@ -1,0 +1,97 @@
+{
+  "candidate_id": "cand_c3d4e5f6a7b8",
+  "run_id": "run_3f9a1c2b7d10",
+  "rank": 3,
+  "origin": "explore",
+  "source_record_id": null,
+  "formula": {
+    "GLYCERIN": 4,
+    "NIACINAMIDE": 3.2,
+    "CETEARYL_ALCOHOL": 2,
+    "EMULSIFIER": 3,
+    "CCT": 8,
+    "DIMETHICONE": 2,
+    "XANTHAN": 0.2,
+    "CARBOMER": 0.1,
+    "NAOH": 0.15,
+    "PHENOXYETHANOL": 0.8,
+    "AQUA": 76.55,
+    "RPM": 6000,
+    "HMIN": 5,
+    "TEMP": 75
+  },
+  "prediction": {
+    "VISCOSITY_CP": 1553,
+    "VISCOSITY_CP_CI95": [
+      904,
+      2669
+    ],
+    "PH": 5.46,
+    "PH_CI95": [
+      5.16,
+      5.75
+    ],
+    "D50_UM": 1.78,
+    "D50_UM_CI95": [
+      1.2,
+      2.64
+    ],
+    "P_STABLE": 0.78,
+    "COST_IDR_PER_KG": 27035.5,
+    "P_SPECS": {
+      "P_VISC": 0.01,
+      "P_PH": 0.94,
+      "P_D50": 0.93,
+      "P_STABLE": 0.78,
+      "DET_OK": 0.0
+    },
+    "P_TARGET": 0.0,
+    "UNCERTAINTY": 0.55,
+    "model_version": "gp-global-v1"
+  },
+  "gate": {
+    "status": "blocked",
+    "issues": [
+      {
+        "code": "CLAIM_NOT_MET",
+        "severity": "error",
+        "message": "Kadar niacinamide di bawah klaim brief.",
+        "field": "NIACINAMIDE"
+      },
+      {
+        "code": "LOW_P_TARGET",
+        "severity": "warning",
+        "message": "Peluang memenuhi seluruh spesifikasi rendah.",
+        "field": null
+      },
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "GLYCERIN: sumber bisa hewani atau nabati; minta sertifikat halal pemasok (asumsi tim).",
+        "field": "GLYCERIN"
+      },
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "EMULSIFIER: asam lemak stearat bisa bersumber hewani (asumsi tim).",
+        "field": "EMULSIFIER"
+      },
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "CETEARYL_ALCOHOL: sumber lemak perlu dicek (asumsi tim).",
+        "field": "CETEARYL_ALCOHOL"
+      }
+    ]
+  },
+  "evidence": [],
+  "summary": {
+    "text": "Prediksi viskositas 1,553 cP (95%: 904–2,669), pH 5.5, droplet 1.8 µm, peluang stabil 78%. Peluang memenuhi seluruh spesifikasi 0%; biaya bahan Rp27,036/kg (harga asumsi). Guardian: Diblokir (Kadar niacinamide di bawah klaim brief.).",
+    "source": "template",
+    "reason": "not_summarized_by_llm"
+  },
+  "decision": null,
+  "decision_reason": null,
+  "acknowledged": false,
+  "lab_result": null
+}

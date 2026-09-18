@@ -1,0 +1,11 @@
+{
+  "model_ready": true,
+  "model_version": "gp-global-v1",
+  "llm_ready": true,
+  "scout_ready": false,
+  "market_ready": true,
+  "evaluation_ready": false,
+  "db_ready": true,
+  "instance": "david",
+  "virtual_lab_variant": "v1"
+}

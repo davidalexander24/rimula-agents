@@ -1,0 +1,51 @@
+{
+  "scope": "global",
+  "batches": 2,
+  "hit_at_batch": null,
+  "best_specs_met": 5,
+  "total_specs": 6,
+  "history": [
+    {
+      "batch_index": 1,
+      "candidate_id": "cand_000000000001",
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": true,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      },
+      "outputs": {
+        "VISCOSITY_CP": 855,
+        "PH": 5.01,
+        "D50_UM": 1.77,
+        "STABILITY_INDEX": 0.706,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 24616.5
+      }
+    },
+    {
+      "batch_index": 2,
+      "candidate_id": "cand_000000000002",
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": true,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      },
+      "outputs": {
+        "VISCOSITY_CP": 1512,
+        "PH": 5.52,
+        "D50_UM": 1.92,
+        "STABILITY_INDEX": 0.815,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 29827.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "run_id": "run_3f9a1c2b7d10",
+  "run_mode": "explore",
+  "session_id": null,
+  "brief_id": "niacinamide_gel_cream",
+  "specs": {
+    "NIACINAMIDE_MIN_PCT": 4.0,
+    "VISCOSITY_CP": [
+      4000,
+      12000
+    ],
+    "PH": [
+      5.0,
+      6.5
+    ],
+    "D50_UM_MAX": 3.0,
+    "STABLE": true,
+    "COST_IDR_PER_KG_MAX": 50000
+  },
+  "n": 3,
+  "use_orchestrator": true,
+  "status": "done",
+  "llm_status": "ok",
+  "model_version": "gp-global-v1",
+  "recommendation": "Uji kandidat #1 lebih dulu karena peluang memenuhi spesifikasinya paling tinggi, lalu kandidat #2. Keputusan akhir tetap pada formulator.",
+  "error": null,
+  "created_at": "2026-09-17T19:30:00+07:00",
+  "finished_at": "2026-09-17T19:30:11+07:00",
+  "candidates": [
+    {
+      "candidate_id": "cand_a1b2c3d4e5f6",
+      "run_id": "run_3f9a1c2b7d10",
+      "rank": 1,
+      "origin": "explore",
+      "source_record_id": null,
+      "formula": {
+        "GLYCERIN": 3,
+        "NIACINAMIDE": 4.5,
+        "CETEARYL_ALCOHOL": 1.5,
+        "EMULSIFIER": 2.5,
+        "CCT": 5,
+        "DIMETHICONE": 1,
+        "XANTHAN": 0.3,
+        "CARBOMER": 0.3,
+        "NAOH": 0.5,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 80.6,
+        "RPM": 7000,
+        "HMIN": 5,
+        "TEMP": 75
+      },
+      "prediction": {
+        "VISCOSITY_CP": 6453,
+        "VISCOSITY_CP_CI95": [
+          3755,
+          11091
+        ],
+        "PH": 5.62,
+        "PH_CI95": [
+          5.33,
+          5.91
+        ],
+        "D50_UM": 1.24,
+        "D50_UM_CI95": [
+          0.83,
+          1.83
+        ],
+        "P_STABLE": 0.84,
+        "COST_IDR_PER_KG": 28346.0,
+        "P_SPECS": {
+          "P_VISC": 0.72,
+          "P_PH": 0.97,
+          "P_D50": 0.99,
+          "P_STABLE": 0.84,
+          "DET_OK": 1.0
+        },
+        "P_TARGET": 0.581,
+        "UNCERTAINTY": 0.48,
+        "model_version": "gp-global-v1"
+      },
+      "gate": {
+        "status": "review",
+        "issues": [
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "GLYCERIN: sumber bisa hewani atau nabati; minta sertifikat halal pemasok (asumsi tim).",
+            "field": "GLYCERIN"
+          },
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "EMULSIFIER: asam lemak stearat bisa bersumber hewani (asumsi tim).",
+            "field": "EMULSIFIER"
+          },
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "CETEARYL_ALCOHOL: sumber lemak perlu dicek (asumsi tim).",
+            "field": "CETEARYL_ALCOHOL"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "type": "market",
+          "title": "Kombinasi bahan ini ditemukan pada 14 produk skincare/makeup (Open Beauty Facts), termasuk 1 produk di Indonesia.",
+          "detail": {
+            "n_products_all": 14,
+            "n_indonesia": 1,
+            "n_by_segment": {
+              "skincare": 12,
+              "makeup": 1,
+              "suncare": 1
+            },
+            "min_pair_support": 14,
+            "weakest_pair": "CARBOMER|NIACINAMIDE",
+            "examples": [
+              {
+                "product_name": "[FIXTURE] Produk contoh A",
+                "brands": "[FIXTURE] Merek contoh",
+                "segment": "skincare"
+              },
+              {
+                "product_name": "[FIXTURE] Produk contoh B",
+                "brands": "[FIXTURE] Merek contoh",
+                "segment": "skincare"
+              }
+            ],
+            "FIXTURE": true
+          },
+          "source": "Open Beauty Facts"
+        },
+        {
+          "type": "literature",
+          "title": "[FIXTURE] Judul artikel contoh 1, bukan sitasi nyata",
+          "detail": {
+            "pmcid": "PMC0000001",
+            "year": 2021,
+            "journal": "[FIXTURE] Jurnal contoh",
+            "url": "https://europepmc.org/",
+            "score": 0.71,
+            "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+            "FIXTURE": true
+          },
+          "source": "Europe PMC"
+        },
+        {
+          "type": "literature",
+          "title": "[FIXTURE] Judul artikel contoh 2, bukan sitasi nyata",
+          "detail": {
+            "pmcid": "PMC0000002",
+            "year": 2022,
+            "journal": "[FIXTURE] Jurnal contoh",
+            "url": "https://europepmc.org/",
+            "score": 0.64,
+            "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+            "FIXTURE": true
+          },
+          "source": "Europe PMC"
+        }
+      ],
+      "summary": {
+        "text": "Prediksi viskositas 6.453 cP dan pH 5,62, dengan peluang memenuhi seluruh spesifikasi 58%. Guardian meminta peninjauan sumber bahan gliserin, emulsifier, dan cetearyl alcohol. Disarankan uji lab untuk memastikan stabilitas.",
+        "source": "llm",
+        "reason": null
+      },
+      "decision": null,
+      "decision_reason": null,
+      "acknowledged": false,
+      "lab_result": null
+    },
+    {
+      "candidate_id": "cand_b7c8d9e0f1a2",
+      "run_id": "run_3f9a1c2b7d10",
+      "rank": 2,
+      "origin": "explore",
+      "source_record_id": null,
+      "formula": {
+        "GLYCERIN": 0,
+        "NIACINAMIDE": 5,
+        "CETEARYL_ALCOHOL": 0,
+        "EMULSIFIER": 0,
+        "CCT": 0,
+        "DIMETHICONE": 0,
+        "XANTHAN": 0.5,
+        "CARBOMER": 0.4,
+        "NAOH": 0.6,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 92.7,
+        "RPM": 5000,
+        "HMIN": 3,
+        "TEMP": 70
+      },
+      "prediction": {
+        "VISCOSITY_CP": 8917,
+        "VISCOSITY_CP_CI95": [
+          4959,
+          16032
+        ],
+        "PH": 5.6,
+        "PH_CI95": [
+          5.31,
+          5.89
+        ],
+        "D50_UM": 0.84,
+        "D50_UM_CI95": [
+          0.55,
+          1.29
+        ],
+        "P_STABLE": 0.45,
+        "COST_IDR_PER_KG": 22337.0,
+        "P_SPECS": {
+          "P_VISC": 0.81,
+          "P_PH": 0.96,
+          "P_D50": 1.0,
+          "P_STABLE": 0.45,
+          "DET_OK": 1.0
+        },
+        "P_TARGET": 0.35,
+        "UNCERTAINTY": 0.62,
+        "model_version": "gp-global-v1"
+      },
+      "gate": {
+        "status": "pass",
+        "issues": []
+      },
+      "evidence": [
+        {
+          "type": "market",
+          "title": "Kombinasi bahan ini ditemukan pada 6 produk skincare/makeup (Open Beauty Facts), termasuk 0 produk di Indonesia.",
+          "detail": {
+            "n_products_all": 6,
+            "n_indonesia": 0,
+            "n_by_segment": {
+              "skincare": 6,
+              "makeup": 0,
+              "suncare": 0
+            },
+            "min_pair_support": 6,
+            "weakest_pair": "CARBOMER|NIACINAMIDE",
+            "examples": [
+              {
+                "product_name": "[FIXTURE] Produk contoh A",
+                "brands": "[FIXTURE] Merek contoh",
+                "segment": "skincare"
+              },
+              {
+                "product_name": "[FIXTURE] Produk contoh B",
+                "brands": "[FIXTURE] Merek contoh",
+                "segment": "skincare"
+              }
+            ],
+            "FIXTURE": true
+          },
+          "source": "Open Beauty Facts"
+        },
+        {
+          "type": "literature",
+          "title": "[FIXTURE] Judul artikel contoh 3, bukan sitasi nyata",
+          "detail": {
+            "pmcid": "PMC0000003",
+            "year": 2023,
+            "journal": "[FIXTURE] Jurnal contoh",
+            "url": "https://europepmc.org/",
+            "score": 0.58,
+            "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+            "FIXTURE": true
+          },
+          "source": "Europe PMC"
+        }
+      ],
+      "summary": {
+        "text": "Gel carbomer dan xanthan dengan prediksi viskositas 8.917 cP dan peluang stabil 45%. Peluang memenuhi seluruh spesifikasi 35%, jadi uji setelah kandidat #1.",
+        "source": "llm",
+        "reason": null
+      },
+      "decision": null,
+      "decision_reason": null,
+      "acknowledged": false,
+      "lab_result": null
+    },
+    {
+      "candidate_id": "cand_c3d4e5f6a7b8",
+      "run_id": "run_3f9a1c2b7d10",
+      "rank": 3,
+      "origin": "explore",
+      "source_record_id": null,
+      "formula": {
+        "GLYCERIN": 4,
+        "NIACINAMIDE": 3.2,
+        "CETEARYL_ALCOHOL": 2,
+        "EMULSIFIER": 3,
+        "CCT": 8,
+        "DIMETHICONE": 2,
+        "XANTHAN": 0.2,
+        "CARBOMER": 0.1,
+        "NAOH": 0.15,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 76.55,
+        "RPM": 6000,
+        "HMIN": 5,
+        "TEMP": 75
+      },
+      "prediction": {
+        "VISCOSITY_CP": 1553,
+        "VISCOSITY_CP_CI95": [
+          904,
+          2669
+        ],
+        "PH": 5.46,
+        "PH_CI95": [
+          5.16,
+          5.75
+        ],
+        "D50_UM": 1.78,
+        "D50_UM_CI95": [
+          1.2,
+          2.64
+        ],
+        "P_STABLE": 0.78,
+        "COST_IDR_PER_KG": 27035.5,
+        "P_SPECS": {
+          "P_VISC": 0.01,
+          "P_PH": 0.94,
+          "P_D50": 0.93,
+          "P_STABLE": 0.78,
+          "DET_OK": 0.0
+        },
+        "P_TARGET": 0.0,
+        "UNCERTAINTY": 0.55,
+        "model_version": "gp-global-v1"
+      },
+      "gate": {
+        "status": "blocked",
+        "issues": [
+          {
+            "code": "CLAIM_NOT_MET",
+            "severity": "error",
+            "message": "Kadar niacinamide di bawah klaim brief.",
+            "field": "NIACINAMIDE"
+          },
+          {
+            "code": "LOW_P_TARGET",
+            "severity": "warning",
+            "message": "Peluang memenuhi seluruh spesifikasi rendah.",
+            "field": null
+          },
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "GLYCERIN: sumber bisa hewani atau nabati; minta sertifikat halal pemasok (asumsi tim).",
+            "field": "GLYCERIN"
+          },
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "EMULSIFIER: asam lemak stearat bisa bersumber hewani (asumsi tim).",
+            "field": "EMULSIFIER"
+          },
+          {
+            "code": "HALAL_SOURCE_CHECK",
+            "severity": "warning",
+            "message": "CETEARYL_ALCOHOL: sumber lemak perlu dicek (asumsi tim).",
+            "field": "CETEARYL_ALCOHOL"
+          }
+        ]
+      },
+      "evidence": [],
+      "summary": {
+        "text": "Prediksi viskositas 1,553 cP (95%: 904–2,669), pH 5.5, droplet 1.8 µm, peluang stabil 78%. Peluang memenuhi seluruh spesifikasi 0%; biaya bahan Rp27,036/kg (harga asumsi). Guardian: Diblokir (Kadar niacinamide di bawah klaim brief.).",
+        "source": "template",
+        "reason": "not_summarized_by_llm"
+      },
+      "decision": null,
+      "decision_reason": null,
+      "acknowledged": false,
+      "lab_result": null
+    }
+  ],
+  "events": [
+    {
+      "seq": 1,
+      "agent": "system",
+      "action": "run_started",
+      "status": "done",
+      "detail": {
+        "run_mode": "explore",
+        "brief_id": "niacinamide_gel_cream",
+        "n": 3,
+        "use_orchestrator": true
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:00+07:00"
+    },
+    {
+      "seq": 2,
+      "agent": "orchestrator",
+      "action": "llm_step",
+      "status": "done",
+      "detail": {
+        "step": 1,
+        "tool_calls": 1
+      },
+      "duration_ms": 1850,
+      "ts": "2026-09-17T19:30:02+07:00"
+    },
+    {
+      "seq": 3,
+      "agent": "designer",
+      "action": "propose",
+      "status": "started",
+      "detail": {
+        "call": "designer_propose#1",
+        "n": 3
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:02+07:00"
+    },
+    {
+      "seq": 4,
+      "agent": "designer",
+      "action": "propose",
+      "status": "done",
+      "detail": {
+        "call": "designer_propose#1",
+        "n": 3,
+        "candidate_ids": [
+          "cand_a1b2c3d4e5f6",
+          "cand_b7c8d9e0f1a2",
+          "cand_c3d4e5f6a7b8"
+        ],
+        "model_version": "gp-global-v1"
+      },
+      "duration_ms": 2140,
+      "ts": "2026-09-17T19:30:04+07:00"
+    },
+    {
+      "seq": 5,
+      "agent": "orchestrator",
+      "action": "llm_step",
+      "status": "done",
+      "detail": {
+        "step": 2,
+        "tool_calls": 3
+      },
+      "duration_ms": 1210,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 6,
+      "agent": "guardian",
+      "action": "check",
+      "status": "started",
+      "detail": {
+        "call": "guardian_check#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 7,
+      "agent": "guardian",
+      "action": "check",
+      "status": "done",
+      "detail": {
+        "call": "guardian_check#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6",
+        "status": "review"
+      },
+      "duration_ms": 11,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 8,
+      "agent": "guardian",
+      "action": "check",
+      "status": "started",
+      "detail": {
+        "call": "guardian_check#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 9,
+      "agent": "guardian",
+      "action": "check",
+      "status": "done",
+      "detail": {
+        "call": "guardian_check#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2",
+        "status": "pass"
+      },
+      "duration_ms": 11,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 10,
+      "agent": "guardian",
+      "action": "check",
+      "status": "started",
+      "detail": {
+        "call": "guardian_check#cand_c3d4e5f6a7b8",
+        "candidate_id": "cand_c3d4e5f6a7b8"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 11,
+      "agent": "guardian",
+      "action": "check",
+      "status": "done",
+      "detail": {
+        "call": "guardian_check#cand_c3d4e5f6a7b8",
+        "candidate_id": "cand_c3d4e5f6a7b8",
+        "status": "blocked"
+      },
+      "duration_ms": 11,
+      "ts": "2026-09-17T19:30:05+07:00"
+    },
+    {
+      "seq": 12,
+      "agent": "orchestrator",
+      "action": "llm_step",
+      "status": "done",
+      "detail": {
+        "step": 3,
+        "tool_calls": 4
+      },
+      "duration_ms": 1630,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 13,
+      "agent": "scout",
+      "action": "market",
+      "status": "started",
+      "detail": {
+        "call": "scout_market#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 14,
+      "agent": "scout",
+      "action": "market",
+      "status": "done",
+      "detail": {
+        "call": "scout_market#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6",
+        "n_products_all": 14
+      },
+      "duration_ms": 38,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 15,
+      "agent": "scout",
+      "action": "literature",
+      "status": "started",
+      "detail": {
+        "call": "scout_literature#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6",
+        "query": "niacinamide carbomer gel cream stability"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 16,
+      "agent": "scout",
+      "action": "literature",
+      "status": "done",
+      "detail": {
+        "call": "scout_literature#cand_a1b2c3d4e5f6",
+        "candidate_id": "cand_a1b2c3d4e5f6",
+        "n_results": 2
+      },
+      "duration_ms": 420,
+      "ts": "2026-09-17T19:30:08+07:00"
+    },
+    {
+      "seq": 17,
+      "agent": "scout",
+      "action": "market",
+      "status": "started",
+      "detail": {
+        "call": "scout_market#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 18,
+      "agent": "scout",
+      "action": "market",
+      "status": "done",
+      "detail": {
+        "call": "scout_market#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2",
+        "n_products_all": 6
+      },
+      "duration_ms": 38,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 19,
+      "agent": "scout",
+      "action": "literature",
+      "status": "started",
+      "detail": {
+        "call": "scout_literature#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2",
+        "query": "niacinamide carbomer gel cream stability"
+      },
+      "duration_ms": null,
+      "ts": "2026-09-17T19:30:07+07:00"
+    },
+    {
+      "seq": 20,
+      "agent": "scout",
+      "action": "literature",
+      "status": "done",
+      "detail": {
+        "call": "scout_literature#cand_b7c8d9e0f1a2",
+        "candidate_id": "cand_b7c8d9e0f1a2",
+        "n_results": 1
+      },
+      "duration_ms": 420,
+      "ts": "2026-09-17T19:30:08+07:00"
+    },
+    {
+      "seq": 21,
+      "agent": "orchestrator",
+      "action": "llm_step",
+      "status": "done",
+      "detail": {
+        "step": 4,
+        "tool_calls": 0
+      },
+      "duration_ms": 2910,
+      "ts": "2026-09-17T19:30:11+07:00"
+    },
+    {
+      "seq": 22,
+      "agent": "orchestrator",
+      "action": "summarize",
+      "status": "done",
+      "detail": {
+        "accepted": [
+          "cand_a1b2c3d4e5f6",
+          "cand_b7c8d9e0f1a2"
+        ],
+        "rejected": []
+      },
+      "duration_ms": 6,
+      "ts": "2026-09-17T19:30:11+07:00"
+    },
+    {
+      "seq": 23,
+      "agent": "system",
+      "action": "fallback_template",
+      "status": "done",
+      "detail": {
+        "candidate_id": "cand_c3d4e5f6a7b8",
+        "reason": "not_summarized_by_llm"
+      },
+      "duration_ms": 1,
+      "ts": "2026-09-17T19:30:11+07:00"
+    },
+    {
+      "seq": 24,
+      "agent": "system",
+      "action": "run_finished",
+      "status": "done",
+      "detail": {
+        "status": "done",
+        "duration_ms": 11400
+      },
+      "duration_ms": 11400,
+      "ts": "2026-09-17T19:30:11+07:00"
+    }
+  ]
+}

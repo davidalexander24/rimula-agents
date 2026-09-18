@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/dist.tmp/
+
+# Secrets and per-instance runtime state (DB, retrained models, logs, PIDs)
+.env
+var/
+
+# Rebuildable or third-party artifacts (see README "Data and artifacts")
+data/market/
+artifacts/market/
+artifacts/scout/
+artifacts/models/
+data/validation/liposome/*.zip
+data/validation/liposome/microfluidics_dataset/
+
+# Editors / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

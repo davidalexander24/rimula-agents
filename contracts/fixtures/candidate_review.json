@@ -1,0 +1,143 @@
+{
+  "candidate_id": "cand_a1b2c3d4e5f6",
+  "run_id": "run_3f9a1c2b7d10",
+  "rank": 1,
+  "origin": "explore",
+  "source_record_id": null,
+  "formula": {
+    "GLYCERIN": 3,
+    "NIACINAMIDE": 4.5,
+    "CETEARYL_ALCOHOL": 1.5,
+    "EMULSIFIER": 2.5,
+    "CCT": 5,
+    "DIMETHICONE": 1,
+    "XANTHAN": 0.3,
+    "CARBOMER": 0.3,
+    "NAOH": 0.5,
+    "PHENOXYETHANOL": 0.8,
+    "AQUA": 80.6,
+    "RPM": 7000,
+    "HMIN": 5,
+    "TEMP": 75
+  },
+  "prediction": {
+    "VISCOSITY_CP": 6453,
+    "VISCOSITY_CP_CI95": [
+      3755,
+      11091
+    ],
+    "PH": 5.62,
+    "PH_CI95": [
+      5.33,
+      5.91
+    ],
+    "D50_UM": 1.24,
+    "D50_UM_CI95": [
+      0.83,
+      1.83
+    ],
+    "P_STABLE": 0.84,
+    "COST_IDR_PER_KG": 28346.0,
+    "P_SPECS": {
+      "P_VISC": 0.72,
+      "P_PH": 0.97,
+      "P_D50": 0.99,
+      "P_STABLE": 0.84,
+      "DET_OK": 1.0
+    },
+    "P_TARGET": 0.581,
+    "UNCERTAINTY": 0.48,
+    "model_version": "gp-global-v1"
+  },
+  "gate": {
+    "status": "review",
+    "issues": [
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "GLYCERIN: sumber bisa hewani atau nabati; minta sertifikat halal pemasok (asumsi tim).",
+        "field": "GLYCERIN"
+      },
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "EMULSIFIER: asam lemak stearat bisa bersumber hewani (asumsi tim).",
+        "field": "EMULSIFIER"
+      },
+      {
+        "code": "HALAL_SOURCE_CHECK",
+        "severity": "warning",
+        "message": "CETEARYL_ALCOHOL: sumber lemak perlu dicek (asumsi tim).",
+        "field": "CETEARYL_ALCOHOL"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "market",
+      "title": "Kombinasi bahan ini ditemukan pada 14 produk skincare/makeup (Open Beauty Facts), termasuk 1 produk di Indonesia.",
+      "detail": {
+        "n_products_all": 14,
+        "n_indonesia": 1,
+        "n_by_segment": {
+          "skincare": 12,
+          "makeup": 1,
+          "suncare": 1
+        },
+        "min_pair_support": 14,
+        "weakest_pair": "CARBOMER|NIACINAMIDE",
+        "examples": [
+          {
+            "product_name": "[FIXTURE] Produk contoh A",
+            "brands": "[FIXTURE] Merek contoh",
+            "segment": "skincare"
+          },
+          {
+            "product_name": "[FIXTURE] Produk contoh B",
+            "brands": "[FIXTURE] Merek contoh",
+            "segment": "skincare"
+          }
+        ],
+        "FIXTURE": true
+      },
+      "source": "Open Beauty Facts"
+    },
+    {
+      "type": "literature",
+      "title": "[FIXTURE] Judul artikel contoh 1, bukan sitasi nyata",
+      "detail": {
+        "pmcid": "PMC0000001",
+        "year": 2021,
+        "journal": "[FIXTURE] Jurnal contoh",
+        "url": "https://europepmc.org/",
+        "score": 0.71,
+        "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+        "FIXTURE": true
+      },
+      "source": "Europe PMC"
+    },
+    {
+      "type": "literature",
+      "title": "[FIXTURE] Judul artikel contoh 2, bukan sitasi nyata",
+      "detail": {
+        "pmcid": "PMC0000002",
+        "year": 2022,
+        "journal": "[FIXTURE] Jurnal contoh",
+        "url": "https://europepmc.org/",
+        "score": 0.64,
+        "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+        "FIXTURE": true
+      },
+      "source": "Europe PMC"
+    }
+  ],
+  "summary": {
+    "text": "Prediksi viskositas 6.453 cP dan pH 5,62, dengan peluang memenuhi seluruh spesifikasi 58%. Guardian meminta peninjauan sumber bahan gliserin, emulsifier, dan cetearyl alcohol. Disarankan uji lab untuk memastikan stabilitas.",
+    "source": "llm",
+    "reason": null
+  },
+  "decision": null,
+  "decision_reason": null,
+  "acknowledged": false,
+  "lab_result": null
+}

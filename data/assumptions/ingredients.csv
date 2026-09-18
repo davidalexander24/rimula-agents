@@ -1,0 +1,12 @@
+code,inci,role,min_pct,max_pct,price_idr_per_kg,notes
+GLYCERIN,Glycerin,humectant,0,10,25000,
+NIACINAMIDE,Niacinamide,active,0,10,350000,klaim pencerah
+CETEARYL_ALCOHOL,Cetearyl Alcohol,co-emulsifier/thickener,0,5,60000,
+EMULSIFIER,Glyceryl Stearate (and) PEG-100 Stearate,emulsifier,0,6,90000,
+CCT,Caprylic/Capric Triglyceride,emollient,0,20,70000,
+DIMETHICONE,Dimethicone,emollient,0,5,120000,
+XANTHAN,Xanthan Gum,thickener,0,1,150000,
+CARBOMER,Carbomer,thickener,0,0.5,400000,butuh netralisasi
+NAOH,Sodium Hydroxide (10% solution),pH adjuster,0,1,20000,
+PHENOXYETHANOL,Phenoxyethanol,preservative,0.3,1,180000,
+AQUA,Aqua,solvent,50,100,1000,sisa (balance)

@@ -1,0 +1,4 @@
+key,value,unit,note
+cost_per_batch_idr,1500000,IDR,bahan + tenaga + alat per batch uji (asumsi)
+days_per_batch,14,hari,racik + skrining stabilitas dipercepat (asumsi)
+formulator_hours_per_batch,6,jam,asumsi

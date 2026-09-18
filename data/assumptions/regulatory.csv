@@ -1,0 +1,11 @@
+code,max_pct,halal_risk,note,source_to_verify,verified
+PHENOXYETHANOL,1.0,low,batas kadar pengawet,Peraturan BPOM No. 17 Tahun 2022 (lampiran pengawet),false
+NIACINAMIDE,,low,risiko hidrolisis pada pH rendah,literatur formulasi (Scout),false
+GLYCERIN,,medium,sumber bisa hewani atau nabati; minta sertifikat halal pemasok,BPJPH/LPPOM,false
+EMULSIFIER,,medium,asam lemak stearat bisa bersumber hewani,BPJPH/LPPOM,false
+CETEARYL_ALCOHOL,,medium,sumber lemak perlu dicek,BPJPH/LPPOM,false
+CARBOMER,,low,perlu netralisasi,,false
+NAOH,,low,pengatur pH; cek batas pH produk,Peraturan BPOM No. 17 Tahun 2022,false
+CCT,,low,,,false
+DIMETHICONE,,low,,,false
+XANTHAN,,low,,,false

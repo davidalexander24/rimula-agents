@@ -1,0 +1,156 @@
+{
+  "v1": {
+    "variant": "v1",
+    "description": "Base calibrated equations",
+    "ph": {
+      "base": 5.2,
+      "nia_coef": 0.08,
+      "car_coef": -2.0,
+      "naoh_excess_coef": 1.2,
+      "noise_sigma": 0.1,
+      "clip": [
+        3.0,
+        9.0
+      ]
+    },
+    "viscosity": {
+      "log10_base": 2.0,
+      "xan_coef": 1.2,
+      "car_coef": 3.5,
+      "car_sig_mult": 3.0,
+      "car_sig_shift": 4.5,
+      "cet_coef": 0.18,
+      "oil_coef": 0.02,
+      "gly_coef": 0.01,
+      "noise_sigma": 0.05
+    },
+    "d50": {
+      "base": 0.8,
+      "oil_mult": 25.0,
+      "rpm_ref": 4000.0,
+      "rpm_exp": 0.7,
+      "hmin_ref": 3.0,
+      "hmin_exp": 0.3,
+      "emul_denom_base": 0.5,
+      "emul_denom_mult": 4.0,
+      "temp_ref": 75.0,
+      "temp_coef": 0.01,
+      "noise_sigma": 0.1
+    },
+    "stability": {
+      "sig_intercept": -4.0,
+      "emul_ratio_mult": 2.5,
+      "emul_ratio_max": 1.5,
+      "log_visc_mult": 0.8,
+      "ln_d50_mult": -0.6,
+      "nia_ph_mult": -0.25,
+      "low_ph_pen": -1.5,
+      "high_oil_pen": -1.0,
+      "flip_prob": 0.05
+    }
+  },
+  "v2": {
+    "variant": "v2",
+    "description": "Robustness variant with randomly scaled coefficients",
+    "ph": {
+      "base": 5.03359,
+      "nia_coef": 0.06104,
+      "car_coef": -2.04966,
+      "naoh_excess_coef": 1.16119,
+      "noise_sigma": 0.09602,
+      "clip": [
+        3.0,
+        9.0
+      ]
+    },
+    "viscosity": {
+      "log10_base": 1.83033,
+      "xan_coef": 1.02279,
+      "car_coef": 3.70872,
+      "car_sig_mult": 2.69948,
+      "car_sig_shift": 3.97536,
+      "cet_coef": 0.1909,
+      "oil_coef": 0.02029,
+      "gly_coef": 0.00817,
+      "noise_sigma": 0.05034
+    },
+    "d50": {
+      "base": 0.67378,
+      "oil_mult": 28.56669,
+      "rpm_ref": 4000.0,
+      "rpm_exp": 0.82389,
+      "hmin_ref": 3.0,
+      "hmin_exp": 0.29914,
+      "emul_denom_base": 0.58664,
+      "emul_denom_mult": 3.15929,
+      "temp_ref": 75.0,
+      "temp_coef": 0.01003,
+      "noise_sigma": 0.07826
+    },
+    "stability": {
+      "sig_intercept": -3.85624,
+      "emul_ratio_mult": 1.99566,
+      "emul_ratio_max": 1.22037,
+      "log_visc_mult": 0.8387,
+      "ln_d50_mult": -0.5178,
+      "nia_ph_mult": -0.20087,
+      "low_ph_pen": -1.29023,
+      "high_oil_pen": -0.92491,
+      "flip_prob": 0.05
+    }
+  },
+  "v3": {
+    "variant": "v3",
+    "description": "Extra interactions and higher noise",
+    "ph": {
+      "base": 5.2,
+      "nia_coef": 0.08,
+      "car_coef": -2.0,
+      "naoh_excess_coef": 1.2,
+      "noise_sigma": 0.15,
+      "clip": [
+        3.0,
+        9.0
+      ]
+    },
+    "viscosity": {
+      "log10_base": 2.0,
+      "xan_coef": 1.2,
+      "car_coef": 3.5,
+      "car_sig_mult": 3.0,
+      "car_sig_shift": 4.5,
+      "cet_coef": 0.18,
+      "oil_coef": 0.02,
+      "gly_coef": 0.01,
+      "noise_sigma": 0.075
+    },
+    "d50": {
+      "base": 0.8,
+      "oil_mult": 25.0,
+      "rpm_ref": 4000.0,
+      "rpm_exp": 0.7,
+      "hmin_ref": 3.0,
+      "hmin_exp": 0.3,
+      "emul_denom_base": 0.5,
+      "emul_denom_mult": 4.0,
+      "temp_ref": 75.0,
+      "temp_coef": 0.01,
+      "noise_sigma": 0.15
+    },
+    "stability": {
+      "sig_intercept": -4.0,
+      "emul_ratio_mult": 2.5,
+      "emul_ratio_max": 1.5,
+      "log_visc_mult": 0.8,
+      "ln_d50_mult": -0.6,
+      "nia_ph_mult": -0.25,
+      "low_ph_pen": -1.5,
+      "high_oil_pen": -1.0,
+      "flip_prob": 0.075
+    },
+    "extra_interactions": {
+      "gly_stability_pen": -0.4,
+      "dimethicone_d50_mult": 0.03
+    }
+  }
+}

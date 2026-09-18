@@ -1,0 +1,110 @@
+{
+  "candidate_id": "cand_b7c8d9e0f1a2",
+  "run_id": "run_3f9a1c2b7d10",
+  "rank": 2,
+  "origin": "explore",
+  "source_record_id": null,
+  "formula": {
+    "GLYCERIN": 0,
+    "NIACINAMIDE": 5,
+    "CETEARYL_ALCOHOL": 0,
+    "EMULSIFIER": 0,
+    "CCT": 0,
+    "DIMETHICONE": 0,
+    "XANTHAN": 0.5,
+    "CARBOMER": 0.4,
+    "NAOH": 0.6,
+    "PHENOXYETHANOL": 0.8,
+    "AQUA": 92.7,
+    "RPM": 5000,
+    "HMIN": 3,
+    "TEMP": 70
+  },
+  "prediction": {
+    "VISCOSITY_CP": 8917,
+    "VISCOSITY_CP_CI95": [
+      4959,
+      16032
+    ],
+    "PH": 5.6,
+    "PH_CI95": [
+      5.31,
+      5.89
+    ],
+    "D50_UM": 0.84,
+    "D50_UM_CI95": [
+      0.55,
+      1.29
+    ],
+    "P_STABLE": 0.45,
+    "COST_IDR_PER_KG": 22337.0,
+    "P_SPECS": {
+      "P_VISC": 0.81,
+      "P_PH": 0.96,
+      "P_D50": 1.0,
+      "P_STABLE": 0.45,
+      "DET_OK": 1.0
+    },
+    "P_TARGET": 0.35,
+    "UNCERTAINTY": 0.62,
+    "model_version": "gp-global-v1"
+  },
+  "gate": {
+    "status": "pass",
+    "issues": []
+  },
+  "evidence": [
+    {
+      "type": "market",
+      "title": "Kombinasi bahan ini ditemukan pada 6 produk skincare/makeup (Open Beauty Facts), termasuk 0 produk di Indonesia.",
+      "detail": {
+        "n_products_all": 6,
+        "n_indonesia": 0,
+        "n_by_segment": {
+          "skincare": 6,
+          "makeup": 0,
+          "suncare": 0
+        },
+        "min_pair_support": 6,
+        "weakest_pair": "CARBOMER|NIACINAMIDE",
+        "examples": [
+          {
+            "product_name": "[FIXTURE] Produk contoh A",
+            "brands": "[FIXTURE] Merek contoh",
+            "segment": "skincare"
+          },
+          {
+            "product_name": "[FIXTURE] Produk contoh B",
+            "brands": "[FIXTURE] Merek contoh",
+            "segment": "skincare"
+          }
+        ],
+        "FIXTURE": true
+      },
+      "source": "Open Beauty Facts"
+    },
+    {
+      "type": "literature",
+      "title": "[FIXTURE] Judul artikel contoh 3, bukan sitasi nyata",
+      "detail": {
+        "pmcid": "PMC0000003",
+        "year": 2023,
+        "journal": "[FIXTURE] Jurnal contoh",
+        "url": "https://europepmc.org/",
+        "score": 0.58,
+        "snippet": "[FIXTURE] Cuplikan abstrak contoh untuk frontend. Diganti hasil Scout asli.",
+        "FIXTURE": true
+      },
+      "source": "Europe PMC"
+    }
+  ],
+  "summary": {
+    "text": "Gel carbomer dan xanthan dengan prediksi viskositas 8.917 cP dan peluang stabil 45%. Peluang memenuhi seluruh spesifikasi 35%, jadi uji setelah kandidat #1.",
+    "source": "llm",
+    "reason": null
+  },
+  "decision": null,
+  "decision_reason": null,
+  "acknowledged": false,
+  "lab_result": null
+}

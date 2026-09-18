@@ -1,0 +1,370 @@
+{
+  "session_id": "rs_5d4c3b2a1f0e",
+  "brief_id": "niacinamide_gel_cream",
+  "seed": 7,
+  "progress": null,
+  "known": [
+    {
+      "record_id": "H0267",
+      "formula": {
+        "GLYCERIN": 4.8,
+        "NIACINAMIDE": 2.9,
+        "CETEARYL_ALCOHOL": 1.71,
+        "EMULSIFIER": 3.09,
+        "CCT": 8.08,
+        "DIMETHICONE": 1.95,
+        "XANTHAN": 0.26,
+        "CARBOMER": 0.11,
+        "NAOH": 0.17,
+        "PHENOXYETHANOL": 0.78,
+        "AQUA": 76.15,
+        "RPM": 6034.0,
+        "HMIN": 5.0,
+        "TEMP": 75.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 1425,
+        "PH": 5.45,
+        "D50_UM": 1.96,
+        "STABILITY_INDEX": 0.828,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 26182.5
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0107",
+      "formula": {
+        "GLYCERIN": 3.74,
+        "NIACINAMIDE": 3.19,
+        "CETEARYL_ALCOHOL": 3.69,
+        "EMULSIFIER": 5.31,
+        "CCT": 15.79,
+        "DIMETHICONE": 3.12,
+        "XANTHAN": 0.09,
+        "CARBOMER": 0,
+        "NAOH": 0,
+        "PHENOXYETHANOL": 0.78,
+        "AQUA": 64.29,
+        "RPM": 7278.0,
+        "HMIN": 6.0,
+        "TEMP": 80.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 1483,
+        "PH": 5.41,
+        "D50_UM": 2.78,
+        "STABILITY_INDEX": 0.754,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 36071.9
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0333",
+      "formula": {
+        "GLYCERIN": 5.93,
+        "NIACINAMIDE": 8.23,
+        "CETEARYL_ALCOHOL": 0.14,
+        "EMULSIFIER": 0.82,
+        "CCT": 2.21,
+        "DIMETHICONE": 0,
+        "XANTHAN": 0.51,
+        "CARBOMER": 0.17,
+        "NAOH": 0.36,
+        "PHENOXYETHANOL": 0.63,
+        "AQUA": 81.0,
+        "RPM": 3364.0,
+        "HMIN": 2.0,
+        "TEMP": 65.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 2084,
+        "PH": 5.91,
+        "D50_UM": 1.12,
+        "STABILITY_INDEX": 0.906,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 36117.5
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": true,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0110",
+      "formula": {
+        "GLYCERIN": 4.2,
+        "NIACINAMIDE": 1.93,
+        "CETEARYL_ALCOHOL": 0.6,
+        "EMULSIFIER": 0.92,
+        "CCT": 2.84,
+        "DIMETHICONE": 0.95,
+        "XANTHAN": 0.4,
+        "CARBOMER": 0.31,
+        "NAOH": 0.5,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 86.55,
+        "RPM": 4501.0,
+        "HMIN": 3.0,
+        "TEMP": 69.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 4353,
+        "PH": 5.2,
+        "D50_UM": 1.53,
+        "STABILITY_INDEX": 0.808,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 16366.5
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": true,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0247",
+      "formula": {
+        "GLYCERIN": 3.66,
+        "NIACINAMIDE": 2.6,
+        "CETEARYL_ALCOHOL": 2.17,
+        "EMULSIFIER": 2.8,
+        "CCT": 6.12,
+        "DIMETHICONE": 2.08,
+        "XANTHAN": 0.15,
+        "CARBOMER": 0.08,
+        "NAOH": 0.07,
+        "PHENOXYETHANOL": 0.81,
+        "AQUA": 79.46,
+        "RPM": 6357.0,
+        "HMIN": 5.0,
+        "TEMP": 74.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 862,
+        "PH": 5.41,
+        "D50_UM": 1.26,
+        "STABILITY_INDEX": 0.86,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 23428.6
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0342",
+      "formula": {
+        "GLYCERIN": 3.3,
+        "NIACINAMIDE": 2.1,
+        "CETEARYL_ALCOHOL": 3.76,
+        "EMULSIFIER": 4.8,
+        "CCT": 15.86,
+        "DIMETHICONE": 3.05,
+        "XANTHAN": 0.1,
+        "CARBOMER": 0.04,
+        "NAOH": 0.03,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 66.16,
+        "RPM": 6983.0,
+        "HMIN": 6.0,
+        "TEMP": 80.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 1849,
+        "PH": 5.44,
+        "D50_UM": 2.58,
+        "STABILITY_INDEX": 0.713,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 31930.6
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0203",
+      "formula": {
+        "GLYCERIN": 5.2,
+        "NIACINAMIDE": 8.7,
+        "CETEARYL_ALCOHOL": 0.28,
+        "EMULSIFIER": 0.48,
+        "CCT": 0.77,
+        "DIMETHICONE": 0.18,
+        "XANTHAN": 0.5,
+        "CARBOMER": 0.23,
+        "NAOH": 0.34,
+        "PHENOXYETHANOL": 0.53,
+        "AQUA": 82.79,
+        "RPM": 3259.0,
+        "HMIN": 2.0,
+        "TEMP": 66.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 2732,
+        "PH": 5.97,
+        "D50_UM": 1.14,
+        "STABILITY_INDEX": 0.834,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 36624.9
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": true,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0011",
+      "formula": {
+        "GLYCERIN": 4.95,
+        "NIACINAMIDE": 1.56,
+        "CETEARYL_ALCOHOL": 0.33,
+        "EMULSIFIER": 1.29,
+        "CCT": 3.07,
+        "DIMETHICONE": 1.36,
+        "XANTHAN": 0.34,
+        "CARBOMER": 0.34,
+        "NAOH": 0.49,
+        "PHENOXYETHANOL": 0.8,
+        "AQUA": 85.47,
+        "RPM": 4916.0,
+        "HMIN": 3.0,
+        "TEMP": 70.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 4227,
+        "PH": 5.26,
+        "D50_UM": 1.4,
+        "STABILITY_INDEX": 0.849,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 16100.2
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": true,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0192",
+      "formula": {
+        "GLYCERIN": 3.83,
+        "NIACINAMIDE": 2.82,
+        "CETEARYL_ALCOHOL": 1.73,
+        "EMULSIFIER": 3.22,
+        "CCT": 8.53,
+        "DIMETHICONE": 1.93,
+        "XANTHAN": 0.21,
+        "CARBOMER": 0.13,
+        "NAOH": 0.12,
+        "PHENOXYETHANOL": 0.83,
+        "AQUA": 76.65,
+        "RPM": 5573.0,
+        "HMIN": 6.0,
+        "TEMP": 73.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 1179,
+        "PH": 5.44,
+        "D50_UM": 1.92,
+        "STABILITY_INDEX": 0.803,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 26170.0
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    },
+    {
+      "record_id": "H0371",
+      "formula": {
+        "GLYCERIN": 3.92,
+        "NIACINAMIDE": 2.27,
+        "CETEARYL_ALCOHOL": 4.28,
+        "EMULSIFIER": 4.98,
+        "CCT": 14.15,
+        "DIMETHICONE": 3.09,
+        "XANTHAN": 0.1,
+        "CARBOMER": 0,
+        "NAOH": 0.01,
+        "PHENOXYETHANOL": 0.83,
+        "AQUA": 66.37,
+        "RPM": 6788.0,
+        "HMIN": 7.0,
+        "TEMP": 80.0
+      },
+      "outputs": {
+        "VISCOSITY_CP": 2013,
+        "PH": 5.45,
+        "D50_UM": 2.29,
+        "STABILITY_INDEX": 0.798,
+        "STABLE": 1.0,
+        "COST_IDR_PER_KG": 31897.7
+      },
+      "specs_met": {
+        "NIACINAMIDE_MIN_PCT": false,
+        "VISCOSITY_CP": false,
+        "PH": true,
+        "D50_UM_MAX": true,
+        "STABLE": true,
+        "COST_IDR_PER_KG_MAX": true,
+        "ALL": false
+      }
+    }
+  ],
+  "pool_size": 390,
+  "model_version": "gp-session-rs_5d4c3b2a1f0e-v1"
+}

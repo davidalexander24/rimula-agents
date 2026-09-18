@@ -1,0 +1,126 @@
+{
+  "ingredients": [
+    {
+      "code": "GLYCERIN",
+      "inci": "Glycerin",
+      "role": "humectant",
+      "min_pct": 0,
+      "max_pct": 10,
+      "price_idr_per_kg": 25000,
+      "notes": null
+    },
+    {
+      "code": "NIACINAMIDE",
+      "inci": "Niacinamide",
+      "role": "active",
+      "min_pct": 0,
+      "max_pct": 10,
+      "price_idr_per_kg": 350000,
+      "notes": "klaim pencerah"
+    },
+    {
+      "code": "CETEARYL_ALCOHOL",
+      "inci": "Cetearyl Alcohol",
+      "role": "co-emulsifier/thickener",
+      "min_pct": 0,
+      "max_pct": 5,
+      "price_idr_per_kg": 60000,
+      "notes": null
+    },
+    {
+      "code": "EMULSIFIER",
+      "inci": "Glyceryl Stearate (and) PEG-100 Stearate",
+      "role": "emulsifier",
+      "min_pct": 0,
+      "max_pct": 6,
+      "price_idr_per_kg": 90000,
+      "notes": null
+    },
+    {
+      "code": "CCT",
+      "inci": "Caprylic/Capric Triglyceride",
+      "role": "emollient",
+      "min_pct": 0,
+      "max_pct": 20,
+      "price_idr_per_kg": 70000,
+      "notes": null
+    },
+    {
+      "code": "DIMETHICONE",
+      "inci": "Dimethicone",
+      "role": "emollient",
+      "min_pct": 0,
+      "max_pct": 5,
+      "price_idr_per_kg": 120000,
+      "notes": null
+    },
+    {
+      "code": "XANTHAN",
+      "inci": "Xanthan Gum",
+      "role": "thickener",
+      "min_pct": 0,
+      "max_pct": 1,
+      "price_idr_per_kg": 150000,
+      "notes": null
+    },
+    {
+      "code": "CARBOMER",
+      "inci": "Carbomer",
+      "role": "thickener",
+      "min_pct": 0,
+      "max_pct": 0.5,
+      "price_idr_per_kg": 400000,
+      "notes": "butuh netralisasi"
+    },
+    {
+      "code": "NAOH",
+      "inci": "Sodium Hydroxide (10% solution)",
+      "role": "pH adjuster",
+      "min_pct": 0,
+      "max_pct": 1,
+      "price_idr_per_kg": 20000,
+      "notes": null
+    },
+    {
+      "code": "PHENOXYETHANOL",
+      "inci": "Phenoxyethanol",
+      "role": "preservative",
+      "min_pct": 0.3,
+      "max_pct": 1,
+      "price_idr_per_kg": 180000,
+      "notes": null
+    },
+    {
+      "code": "AQUA",
+      "inci": "Aqua",
+      "role": "solvent",
+      "min_pct": 50,
+      "max_pct": 100,
+      "price_idr_per_kg": 1000,
+      "notes": "sisa (balance)"
+    }
+  ],
+  "process": [
+    {
+      "code": "RPM",
+      "label": "Kecepatan homogenizer",
+      "unit": "rpm",
+      "min": 2000,
+      "max": 10000
+    },
+    {
+      "code": "HMIN",
+      "label": "Lama homogenisasi",
+      "unit": "menit",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "code": "TEMP",
+      "label": "Suhu emulsifikasi",
+      "unit": "°C",
+      "min": 60,
+      "max": 85
+    }
+  ]
+}

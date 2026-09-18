@@ -1,0 +1,30 @@
+[
+  {
+    "brief_id": "niacinamide_gel_cream",
+    "name": "Gel-krim pencerah niacinamide",
+    "description": "Gel-krim O/W ringan dengan klaim niacinamide minimal 4%.",
+    "specs": {
+      "NIACINAMIDE_MIN_PCT": 4.0,
+      "VISCOSITY_CP": [4000, 12000],
+      "PH": [5.0, 6.5],
+      "D50_UM_MAX": 3.0,
+      "STABLE": true,
+      "COST_IDR_PER_KG_MAX": 50000
+    },
+    "hit_rate_random_v1": 0.068
+  },
+  {
+    "brief_id": "light_moisturizer",
+    "name": "Pelembap ringan",
+    "description": "Losion ringan, biaya rendah.",
+    "specs": {
+      "NIACINAMIDE_MIN_PCT": 0.0,
+      "VISCOSITY_CP": [3000, 15000],
+      "PH": [5.0, 6.5],
+      "D50_UM_MAX": 5.0,
+      "STABLE": true,
+      "COST_IDR_PER_KG_MAX": 70000
+    },
+    "hit_rate_random_v1": null
+  }
+]

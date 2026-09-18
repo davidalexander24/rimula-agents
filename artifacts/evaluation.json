@@ -1,0 +1,1775 @@
+{
+  "generated_at": "2026-09-17T22:04:21+07:00",
+  "quick": false,
+  "brief_id": "niacinamide_gel_cream",
+  "specs": {
+    "NIACINAMIDE_MIN_PCT": 4.0,
+    "VISCOSITY_CP": [
+      4000,
+      12000
+    ],
+    "PH": [
+      5.0,
+      6.5
+    ],
+    "D50_UM_MAX": 3.0,
+    "STABLE": true,
+    "COST_IDR_PER_KG_MAX": 50000
+  },
+  "cv": {
+    "n": 400,
+    "folds": 5,
+    "visc": {
+      "r2": 0.990343489503355,
+      "mae_log10": 0.04780032067373921,
+      "median_abs_cp": 337.72419302681146,
+      "baseline_r2": 0.0,
+      "coverage95": 0.95
+    },
+    "ph": {
+      "r2": 0.9489289854729195,
+      "mae": 0.08090062903949512,
+      "baseline_r2": 0.0,
+      "coverage95": 0.94
+    },
+    "d50": {
+      "r2": 0.9553697405640829,
+      "mae_um": 0.23347699556665205,
+      "baseline_r2": 0.0,
+      "coverage95": 0.9525
+    },
+    "stab": {
+      "auc": 0.9283022817667993,
+      "brier": 0.06503277861307885,
+      "baseline_brier": 0.20899375000000003
+    }
+  },
+  "unc_max": 0.23384841983452823,
+  "hit_rate_random": {
+    "v1": 0.061,
+    "v2": 0.0585,
+    "v3": 0.0585
+  },
+  "closed_loop": {
+    "max_batches": 40,
+    "seeds": 20,
+    "start_known": 10,
+    "variants": [
+      "v1",
+      "v2",
+      "v3"
+    ],
+    "results": {
+      "v1": {
+        "ai": {
+          "median": 2.0,
+          "iqr": [
+            1.0,
+            2.0
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "random": {
+          "median": 9.0,
+          "iqr": [
+            3.75,
+            18.5
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "heuristic": {
+          "median": 41.0,
+          "iqr": [
+            29.75,
+            41.0
+          ],
+          "found_rate": 0.3,
+          "n_found": 6,
+          "n_seeds": 20
+        },
+        "curve": [
+          {
+            "batch": 1,
+            "ai": 0.45,
+            "random": 0.15,
+            "heuristic": 0.0
+          },
+          {
+            "batch": 2,
+            "ai": 0.8,
+            "random": 0.15,
+            "heuristic": 0.0
+          },
+          {
+            "batch": 3,
+            "ai": 0.9,
+            "random": 0.25,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 4,
+            "ai": 1.0,
+            "random": 0.3,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 5,
+            "ai": 1.0,
+            "random": 0.4,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 6,
+            "ai": 1.0,
+            "random": 0.45,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 7,
+            "ai": 1.0,
+            "random": 0.5,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 8,
+            "ai": 1.0,
+            "random": 0.5,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 9,
+            "ai": 1.0,
+            "random": 0.5,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 10,
+            "ai": 1.0,
+            "random": 0.5,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 11,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 12,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 13,
+            "ai": 1.0,
+            "random": 0.6,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 14,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 15,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 16,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.15
+          },
+          {
+            "batch": 17,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 18,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 19,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 20,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 21,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 22,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 23,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 24,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 25,
+            "ai": 1.0,
+            "random": 0.85,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 26,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 27,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 28,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 29,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 30,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 31,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 32,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 33,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 34,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 35,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 36,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 37,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 38,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 39,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 40,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          }
+        ]
+      },
+      "v2": {
+        "ai": {
+          "median": 2.5,
+          "iqr": [
+            1.0,
+            4.0
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "random": {
+          "median": 6.5,
+          "iqr": [
+            4.0,
+            18.0
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "heuristic": {
+          "median": 41.0,
+          "iqr": [
+            41.0,
+            41.0
+          ],
+          "found_rate": 0.2,
+          "n_found": 4,
+          "n_seeds": 20
+        },
+        "curve": [
+          {
+            "batch": 1,
+            "ai": 0.4,
+            "random": 0.1,
+            "heuristic": 0.0
+          },
+          {
+            "batch": 2,
+            "ai": 0.5,
+            "random": 0.15,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 3,
+            "ai": 0.7,
+            "random": 0.2,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 4,
+            "ai": 0.85,
+            "random": 0.3,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 5,
+            "ai": 0.9,
+            "random": 0.4,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 6,
+            "ai": 0.95,
+            "random": 0.5,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 7,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 8,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 9,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 10,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 11,
+            "ai": 1.0,
+            "random": 0.6,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 12,
+            "ai": 1.0,
+            "random": 0.6,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 13,
+            "ai": 1.0,
+            "random": 0.7,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 14,
+            "ai": 1.0,
+            "random": 0.7,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 15,
+            "ai": 1.0,
+            "random": 0.7,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 16,
+            "ai": 1.0,
+            "random": 0.7,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 17,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 18,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 19,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 20,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 21,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 22,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 23,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 24,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 25,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 26,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 27,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 28,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 29,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 30,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 31,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 32,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 33,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.15
+          },
+          {
+            "batch": 34,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.15
+          },
+          {
+            "batch": 35,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 36,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 37,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 38,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 39,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 40,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.2
+          }
+        ]
+      },
+      "v3": {
+        "ai": {
+          "median": 3.0,
+          "iqr": [
+            1.75,
+            4.0
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "random": {
+          "median": 9.0,
+          "iqr": [
+            3.0,
+            18.0
+          ],
+          "found_rate": 1.0,
+          "n_found": 20,
+          "n_seeds": 20
+        },
+        "heuristic": {
+          "median": 41.0,
+          "iqr": [
+            18.5,
+            41.0
+          ],
+          "found_rate": 0.3,
+          "n_found": 6,
+          "n_seeds": 20
+        },
+        "curve": [
+          {
+            "batch": 1,
+            "ai": 0.25,
+            "random": 0.15,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 2,
+            "ai": 0.35,
+            "random": 0.2,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 3,
+            "ai": 0.55,
+            "random": 0.3,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 4,
+            "ai": 0.85,
+            "random": 0.3,
+            "heuristic": 0.05
+          },
+          {
+            "batch": 5,
+            "ai": 0.9,
+            "random": 0.35,
+            "heuristic": 0.1
+          },
+          {
+            "batch": 6,
+            "ai": 0.95,
+            "random": 0.45,
+            "heuristic": 0.15
+          },
+          {
+            "batch": 7,
+            "ai": 0.95,
+            "random": 0.5,
+            "heuristic": 0.2
+          },
+          {
+            "batch": 8,
+            "ai": 0.95,
+            "random": 0.5,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 9,
+            "ai": 0.95,
+            "random": 0.5,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 10,
+            "ai": 1.0,
+            "random": 0.5,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 11,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 12,
+            "ai": 1.0,
+            "random": 0.55,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 13,
+            "ai": 1.0,
+            "random": 0.6,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 14,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 15,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 16,
+            "ai": 1.0,
+            "random": 0.65,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 17,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 18,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 19,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 20,
+            "ai": 1.0,
+            "random": 0.75,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 21,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.25
+          },
+          {
+            "batch": 22,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 23,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 24,
+            "ai": 1.0,
+            "random": 0.8,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 25,
+            "ai": 1.0,
+            "random": 0.9,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 26,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 27,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 28,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 29,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 30,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 31,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 32,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 33,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 34,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 35,
+            "ai": 1.0,
+            "random": 0.95,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 36,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 37,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 38,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 39,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          },
+          {
+            "batch": 40,
+            "ai": 1.0,
+            "random": 1.0,
+            "heuristic": 0.3
+          }
+        ]
+      }
+    }
+  },
+  "replay_historical": {
+    "max_steps": 80,
+    "seeds": 20,
+    "start_known": 10,
+    "pool": 400,
+    "pool_hits": 21,
+    "ai": {
+      "median": 2.5,
+      "iqr": [
+        1.0,
+        3.0
+      ],
+      "found_rate": 1.0,
+      "n_found": 20,
+      "n_seeds": 20
+    },
+    "random": {
+      "median": 20.0,
+      "iqr": [
+        11.5,
+        29.25
+      ],
+      "found_rate": 1.0,
+      "n_found": 20,
+      "n_seeds": 20
+    },
+    "heuristic": {
+      "median": 14.0,
+      "iqr": [
+        11.5,
+        29.5
+      ],
+      "found_rate": 1.0,
+      "n_found": 20,
+      "n_seeds": 20
+    },
+    "curve": [
+      {
+        "batch": 1,
+        "ai": 0.3,
+        "random": 0.05,
+        "heuristic": 0.0
+      },
+      {
+        "batch": 2,
+        "ai": 0.5,
+        "random": 0.05,
+        "heuristic": 0.0
+      },
+      {
+        "batch": 3,
+        "ai": 0.8,
+        "random": 0.05,
+        "heuristic": 0.1
+      },
+      {
+        "batch": 4,
+        "ai": 0.85,
+        "random": 0.05,
+        "heuristic": 0.15
+      },
+      {
+        "batch": 5,
+        "ai": 0.95,
+        "random": 0.05,
+        "heuristic": 0.15
+      },
+      {
+        "batch": 6,
+        "ai": 0.95,
+        "random": 0.1,
+        "heuristic": 0.2
+      },
+      {
+        "batch": 7,
+        "ai": 0.95,
+        "random": 0.15,
+        "heuristic": 0.2
+      },
+      {
+        "batch": 8,
+        "ai": 0.95,
+        "random": 0.2,
+        "heuristic": 0.2
+      },
+      {
+        "batch": 9,
+        "ai": 0.95,
+        "random": 0.2,
+        "heuristic": 0.2
+      },
+      {
+        "batch": 10,
+        "ai": 0.95,
+        "random": 0.25,
+        "heuristic": 0.25
+      },
+      {
+        "batch": 11,
+        "ai": 0.95,
+        "random": 0.25,
+        "heuristic": 0.25
+      },
+      {
+        "batch": 12,
+        "ai": 1.0,
+        "random": 0.3,
+        "heuristic": 0.35
+      },
+      {
+        "batch": 13,
+        "ai": 1.0,
+        "random": 0.3,
+        "heuristic": 0.4
+      },
+      {
+        "batch": 14,
+        "ai": 1.0,
+        "random": 0.35,
+        "heuristic": 0.55
+      },
+      {
+        "batch": 15,
+        "ai": 1.0,
+        "random": 0.4,
+        "heuristic": 0.55
+      },
+      {
+        "batch": 16,
+        "ai": 1.0,
+        "random": 0.45,
+        "heuristic": 0.6
+      },
+      {
+        "batch": 17,
+        "ai": 1.0,
+        "random": 0.45,
+        "heuristic": 0.6
+      },
+      {
+        "batch": 18,
+        "ai": 1.0,
+        "random": 0.5,
+        "heuristic": 0.6
+      },
+      {
+        "batch": 19,
+        "ai": 1.0,
+        "random": 0.5,
+        "heuristic": 0.65
+      },
+      {
+        "batch": 20,
+        "ai": 1.0,
+        "random": 0.5,
+        "heuristic": 0.65
+      },
+      {
+        "batch": 21,
+        "ai": 1.0,
+        "random": 0.5,
+        "heuristic": 0.65
+      },
+      {
+        "batch": 22,
+        "ai": 1.0,
+        "random": 0.55,
+        "heuristic": 0.65
+      },
+      {
+        "batch": 23,
+        "ai": 1.0,
+        "random": 0.55,
+        "heuristic": 0.65
+      },
+      {
+        "batch": 24,
+        "ai": 1.0,
+        "random": 0.65,
+        "heuristic": 0.7
+      },
+      {
+        "batch": 25,
+        "ai": 1.0,
+        "random": 0.65,
+        "heuristic": 0.7
+      },
+      {
+        "batch": 26,
+        "ai": 1.0,
+        "random": 0.65,
+        "heuristic": 0.7
+      },
+      {
+        "batch": 27,
+        "ai": 1.0,
+        "random": 0.7,
+        "heuristic": 0.7
+      },
+      {
+        "batch": 28,
+        "ai": 1.0,
+        "random": 0.75,
+        "heuristic": 0.7
+      },
+      {
+        "batch": 29,
+        "ai": 1.0,
+        "random": 0.75,
+        "heuristic": 0.75
+      },
+      {
+        "batch": 30,
+        "ai": 1.0,
+        "random": 0.75,
+        "heuristic": 0.75
+      },
+      {
+        "batch": 31,
+        "ai": 1.0,
+        "random": 0.75,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 32,
+        "ai": 1.0,
+        "random": 0.75,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 33,
+        "ai": 1.0,
+        "random": 0.85,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 34,
+        "ai": 1.0,
+        "random": 0.85,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 35,
+        "ai": 1.0,
+        "random": 0.85,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 36,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.8
+      },
+      {
+        "batch": 37,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.85
+      },
+      {
+        "batch": 38,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.85
+      },
+      {
+        "batch": 39,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.85
+      },
+      {
+        "batch": 40,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.85
+      },
+      {
+        "batch": 41,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 42,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 43,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 44,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 45,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 46,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 47,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 48,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 49,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 50,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 51,
+        "ai": 1.0,
+        "random": 0.9,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 52,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 53,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 54,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 55,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 56,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 57,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 58,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 59,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 60,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.9
+      },
+      {
+        "batch": 61,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 62,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 63,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 64,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 65,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 66,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 67,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 68,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 0.95
+      },
+      {
+        "batch": 69,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 70,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 71,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 72,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 73,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 74,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 75,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 76,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 77,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 78,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 79,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      },
+      {
+        "batch": 80,
+        "ai": 1.0,
+        "random": 1.0,
+        "heuristic": 1.0
+      }
+    ]
+  },
+  "liposome_validation": {
+    "label": "Validasi metode pada data eksperimen nyata (liposom, non-skincare)",
+    "rows": 306,
+    "hits": 38,
+    "source": "https://zenodo.org/api/records/17867478/files/microfluidics_dataset.zip/content",
+    "license": "CC BY 4.0 (Zenodo 17867478, DOI 10.5281/zenodo.17867478)",
+    "target": {
+      "size_min": 100.0,
+      "size_max": 150.0,
+      "pdi_max": 0.15
+    },
+    "cv": {
+      "size_nm_mae": 179.9159721836252,
+      "size_nm_median_ae": 7.1334857594437935,
+      "pdi_mae": 0.05520713230846188,
+      "log_size_r2": 0.6797498238790654,
+      "log_pdi_r2": 0.800468600148891
+    },
+    "replay": {
+      "ai": {
+        "median": 2.5,
+        "iqr": [
+          1.0,
+          4.0
+        ],
+        "found_rate": 1.0,
+        "n_found": 20,
+        "n_seeds": 20
+      },
+      "random": {
+        "median": 6.0,
+        "iqr": [
+          4.0,
+          14.5
+        ],
+        "found_rate": 1.0,
+        "n_found": 20,
+        "n_seeds": 20
+      }
+    },
+    "max_steps": 60,
+    "seeds": 20,
+    "start_known": 5,
+    "curve": [
+      {
+        "batch": 1,
+        "ai": 0.35,
+        "random": 0.05
+      },
+      {
+        "batch": 2,
+        "ai": 0.5,
+        "random": 0.05
+      },
+      {
+        "batch": 3,
+        "ai": 0.7,
+        "random": 0.15
+      },
+      {
+        "batch": 4,
+        "ai": 0.85,
+        "random": 0.35
+      },
+      {
+        "batch": 5,
+        "ai": 0.85,
+        "random": 0.45
+      },
+      {
+        "batch": 6,
+        "ai": 0.85,
+        "random": 0.55
+      },
+      {
+        "batch": 7,
+        "ai": 0.85,
+        "random": 0.6
+      },
+      {
+        "batch": 8,
+        "ai": 0.85,
+        "random": 0.6
+      },
+      {
+        "batch": 9,
+        "ai": 0.85,
+        "random": 0.6
+      },
+      {
+        "batch": 10,
+        "ai": 0.85,
+        "random": 0.65
+      },
+      {
+        "batch": 11,
+        "ai": 0.9,
+        "random": 0.65
+      },
+      {
+        "batch": 12,
+        "ai": 0.9,
+        "random": 0.65
+      },
+      {
+        "batch": 13,
+        "ai": 0.9,
+        "random": 0.7
+      },
+      {
+        "batch": 14,
+        "ai": 0.9,
+        "random": 0.75
+      },
+      {
+        "batch": 15,
+        "ai": 0.95,
+        "random": 0.75
+      },
+      {
+        "batch": 16,
+        "ai": 0.95,
+        "random": 0.8
+      },
+      {
+        "batch": 17,
+        "ai": 0.95,
+        "random": 0.85
+      },
+      {
+        "batch": 18,
+        "ai": 0.95,
+        "random": 0.95
+      },
+      {
+        "batch": 19,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 20,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 21,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 22,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 23,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 24,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 25,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 26,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 27,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 28,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 29,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 30,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 31,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 32,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 33,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 34,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 35,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 36,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 37,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 38,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 39,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 40,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 41,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 42,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 43,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 44,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 45,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 46,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 47,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 48,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 49,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 50,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 51,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 52,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 53,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 54,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 55,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 56,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 57,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 58,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 59,
+        "ai": 1.0,
+        "random": 1.0
+      },
+      {
+        "batch": 60,
+        "ai": 1.0,
+        "random": 1.0
+      }
+    ]
+  },
+  "savings_estimate": {
+    "label": "simulasi",
+    "batches_saved": 7.0,
+    "cost_saved_idr": 10500000.0,
+    "days_saved": 98.0,
+    "assumptions": {
+      "cost_per_batch_idr": 1500000.0,
+      "days_per_batch": 14.0
+    },
+    "basis": "skenario A varian v1: median batch random − median batch ai"
+  },
+  "runtime_seconds": 131.0,
+  "figures": [
+    "closed_loop_v1.png",
+    "closed_loop_variants.png",
+    "replay_historical.png",
+    "liposome_validation.png",
+    "cv_parity.png"
+  ],
+  "notes": [
+    "Semua skenario Virtual Lab adalah simulasi; bukan hasil lab nyata.",
+    "CV memakai n_restarts_optimizer=0 per fold; strategi ai melatih ulang GP tiap batch (maxiter 60), propose n_samples=5000."
+  ]
+}

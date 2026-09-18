@@ -1,0 +1,8 @@
+{
+  "mode": "live",
+  "error": {
+    "code": "GATE_BLOCKED",
+    "message": "Kandidat diblokir Guardian dan tidak bisa disetujui.",
+    "request_id": "req_0a1b2c3d4e5f"
+  }
+}
