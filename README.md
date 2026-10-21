@@ -8,7 +8,9 @@ Built in 24 hours by team **Codingbang** at **UI Hackathon Incubate 2026** (PT P
 
 > **Honesty note.** The challenge partner provided no data, so training and the demo run on a **Virtual Lab**: a simulator the team wrote, with open equations whose directional relationships follow the formulation literature ([model card](docs/virtual-lab-model-card.md)). Its numbers are not real lab results. The method is validated separately on a **real published lab dataset** (liposome microfluidics, Zenodo 17867478). All cost and time savings are simulated.
 
-<video src="https://github.com/user-attachments/assets/20015ccd-4be2-4f7c-b974-fcc83ddee045" controls width="100%"></video>
+[![Rimula Agents walkthrough demo](docs/demo.gif)](docs/demo.mp4)
+
+*Replaying one orchestrated run: the orchestrator routes work to Designer, Guardian and Scout, candidate #1 is approved and passes all six specs in the Virtual Lab. [▶ Watch full video (MP4)](docs/demo.mp4)*
 
 ![Define the brief, review candidates, approve, test and learn](docs/screenshots/demo-flow.png)
 
